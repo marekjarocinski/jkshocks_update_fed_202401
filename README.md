@@ -21,6 +21,17 @@
 - MP_pm,CBI_pm - Monetary Policy and Central Bank Information shocks obtained with simple ("Poor Man's") sign restrictions.
 - MP_median,CBI_median - Monetary Policy and Central Bank Information shocks obtained with the median rotation that implements the sign restrictions.
 
+The variables satisfy
+
+MP_pm + CBI_pm = pc1
+
+-> this is the more restrictive decomposition assuming that only one of the shocks is present in each monetary policy announcement
+
+MP_median + CBI_median = pc1
+
+-> this is the more general decomposition that allows both shocks to be present in each monetary policy announcement
+
+
 #### Construction of the shocks:
 
 For the definition of Monetary Policy and Central Bank Information shocks and the motivation behind the sign restrictions see:
