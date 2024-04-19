@@ -1,21 +1,21 @@
 ### Updating Monetary Policy and Central Bank Information shocks originally constructed in Jarocinski, M. and Karadi, P. (2020) Deconstructing  Monetary Policy Surprises - The Role of Information Shocks, AEJ:Macro, DOI: http://doi.org/10.1257/mac.20180090
 
 ### Updated shocks:
-- shocks_fed_jk_t.csv - Monetary Policy and Central Bank Information shocks, by FOMC announcement, indexed by date-time
-- shocks_fed_jk_m.csv - Monetary Policy and Central Bank Information shocks, aggregated to monthly frequency (zero if no shocks in a given month)
+- `shocks_fed_jk_t.csv` - Monetary Policy and Central Bank Information shocks, by FOMC announcement, indexed by date-time
+- `shocks_fed_jk_m.csv` - Monetary Policy and Central Bank Information shocks, aggregated to monthly frequency (zero if no shocks in a given month)
 
 ### Construction of the shocks:
 
-- main.m - Matlab script (calls other Matlab functions)
+- `main.m` - Matlab script (calls other Matlab functions)
 
 ### Source data: 
 
-- fomc_surprises_jk.csv - narrow window (30 minutes) surprises around FOMC announcements from 1988 to 2023 updated by Jarocinski and Karadi.
+- `fomc_surprises_jk.csv` - narrow window (30 minutes) surprises around FOMC announcements from 1988 to 2023 updated by Jarocinski and Karadi.
 
 
 ---
 
-#### Definitions of the variables in shocks_fed_jk_t.csv and shocks_fed_jk_m.csv:
+#### Definitions of the variables in `shocks_fed_jk_t.csv` and `shocks_fed_jk_m.csv`:
 - pc1 - surprise in the "policy indicator", ie the 1st principal component of the surprises in interest rate derivatives with maturities from 1 month to 1 year (MP1, FF4, ED2, ED3, ED4)
 - sp500 - surprise in the S&P500
 - MP_pm,CBI_pm - Monetary Policy and Central Bank Information shocks obtained with simple ("Poor Man's") sign restrictions.
@@ -27,7 +27,7 @@ For the definition of Monetary Policy and Central Bank Information shocks and th
 Jarocinski, M. and Karadi, P. (2020) Deconstructing  Monetary Policy Surprises - The Role of Information Shocks, AEJ:Macro, DOI: 10.1257/mac.20180090
 
 
-#### More details on the source data fomc_surprises_jk.csv:
+#### More details on the source data `fomc_surprises_jk.csv`:
 
 ##### Dates and times of FOMC announcements:
 
