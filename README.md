@@ -46,7 +46,7 @@ From 1997 onwards we take the dates and times from Bloomberg. Before 1997 we tak
 
 ##### High-frequency financial data sources:
 
-We had access to TickData (1981-2019), Datascope Tick History (1996-2024), Pi Trading (1983-2024), with variables and samples determined by data availability and our licence constraints.
+We used TickData (1981-2019), Datascope Tick History (1996-2024), Pi Trading (1983-2024), with variables and samples determined by data availability and our licence constraints.
 
 ##### High-frequency financial variables:
 - FF1,FF2,FF3,FF4 - Fed Funds futures - Sources: Datascope Tick History from 1996 onwards; before 1996 we take these data from the Gurkaynak, Sack and Swanson (2005) dataset.
